@@ -1,4 +1,4 @@
-FROM dquintela:openjdk-8-jdk-alpine
+FROM java:openjdk-8-jdk-alpine
 
 RUN MAVEN_VERSION=3.3.3 \
  && cd /usr/share \
